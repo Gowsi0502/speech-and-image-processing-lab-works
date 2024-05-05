@@ -1,0 +1,4 @@
+[x,fs]=audioread('C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\work\data\1-11.wav');
+plot(x);axis tight;grid on;
+[f0,loc] =pitch(x,fs);
+plot(f0);
